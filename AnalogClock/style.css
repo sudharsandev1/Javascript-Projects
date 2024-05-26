@@ -1,0 +1,122 @@
+body{
+    background-color: burlywood;
+    cursor: pointer;
+
+}
+.outerclock{
+    width: 350px;
+    height: 350px;
+    background-color: #e5e5e5;
+   position: relative;
+   margin-top: 13%;
+   margin-left: 35%;
+   border-radius: 50%;
+  
+   /* box-shadow: 6px 6px 6px gray,-6px -6px 8px gray; */
+}
+.innerclock{
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    background: url(img/photo.jpg);
+    background-size: cover;
+    top:10%;
+    left: 10%;
+    border-radius: 50%;
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    border-radius: 50%;
+    top:46%;
+    position: absolute;
+    left:46%;
+    z-index: 4;
+}
+#hour{
+    width: 10px;
+    height: 75px;
+    background-color:rgb(110, 152, 30);
+        position: absolute;
+    top: 22%;
+    left: 47%;
+    border-radius: 50% 50% 0px 0px;
+    z-index: 2;
+    transform-origin: bottom;
+}
+#min{
+width: 10px;
+height: 100px;
+background-color:rgb(196,209,11);
+position: absolute;
+top: 15%;
+left: 47%;
+border-radius: 50% 50% 0px 0px;
+z-index: 1;
+transform-origin: bottom;
+}
+#sec{
+    width: 5px;
+    height: 110px;
+    background-color:silver;
+    position: absolute;
+    top: 7%;
+    left: 48%;
+    z-index: 3;
+    transform-origin: bottom;
+    }
+    .time p{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .time p:nth-child(1){
+        position: absolute;
+        left: 44%;
+        top:-5%;
+    }
+    .time p:nth-child(2){
+        position: absolute;
+        left: 93%;
+        top:36%;
+    }
+    .time p:nth-child(3){
+        position: absolute;
+        left: 49%;
+        top:83%;
+    }
+    .time p:nth-child(4){
+        position: absolute;
+        left: 5%;
+        top:36%;
+    }
+    @media screen and (max-width:550px){
+        .outerclock{
+         
+           margin-top: 32%;
+           margin-left: 15%;
+      
+          
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
