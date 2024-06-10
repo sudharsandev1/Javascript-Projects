@@ -1,0 +1,35 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+#heading{
+    text-align: left;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 1.6rem;
+    color: rgb(75, 17, 146);
+}
+ #color{
+    float:right;
+    margin-right: 15px;
+}
+#wrap{
+    height: 90vh;
+    width: 100vw;
+    border-top: 2px solid  rgb(75, 17, 146);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: rgb(219,54,54);
+    border: 1px solid #000;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
